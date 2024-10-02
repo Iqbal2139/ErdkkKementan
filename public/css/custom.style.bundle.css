@@ -1,0 +1,78 @@
+.bg-login {
+    /* border: 3px solid #f1f1f1; */
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 1rem!important;
+    text-align: center;
+}
+
+.form-login-custom {
+    @media (min-width: 992px) {
+        border-radius: 1rem 0 0 1rem!important;
+    }
+}
+
+.info-commodity {
+    @media (min-width: 992px) {
+        border-radius: 0 1rem 1rem 0!important;
+    }
+
+    @media (max-width: 992px) {
+        margin-top: 2rem;
+    }
+}
+
+.no-align-item {
+    align-items: baseline;
+}
+
+.w-lg-45 {
+    @media (min-width: 992px) {
+        width: 45% !important;
+    }
+
+    @media (max-width: 992px) {
+        width: 100% !important;
+    }
+}
+
+.w-lg-55 {
+    @media (min-width: 992px) {
+        width: 55% !important;
+    }
+
+    @media (max-width: 992px) {
+        width: 100% !important;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.app-sidebar {
+    background-color: #071437 !important;
+}
+
+.app-sidebar-toggle {
+    background-color: #071437 !important;
+}
+
+.bc-light {
+    background-color: aliceblue !important;
+}
+
+.menu-title {
+    color: #92929f;
+}
+
+.menu-link:hover .menu-title .menu-icon {
+    color: var(--bs-white) !important;
+}
+
+.menu-title:hover {
+    color: var(--bs-white) !important;
+}
+
+.app-sidebar-menu-primary.menu>.menu-item.show>.menu-link .menu-title {
+    color: var(--bs-white) !important;
+}
